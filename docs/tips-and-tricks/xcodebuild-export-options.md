@@ -83,7 +83,7 @@ To do this create a plist file (in your repository) with the options you want to
 
 *These are the options you can select in Xcode when you export the ipa manually.*
 
-The __recommanded__ way is to __put this generated plist file in your project's repository__.
+The __recommended__ way is to __put this generated plist file in your project's repository__.
 Then you can set `Xcode Archive` step's `export_options_path` input
 to the path of your plist file (e.g. `./path/to/export-options.plist`).
 
